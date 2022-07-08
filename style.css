@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: yellow;
+    background-color: rgb(47, 47, 47);
+}
+.busca{
+    background-color: yellow;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 30px;
+    color: rgb(0, 53, 99);
+}
+.busca:hover{
+    background-color: aliceblue;
+}
+.input{
+   border: none;
+   border-radius: 15px;
+   padding: 5px;
+   outline: none;
+   width: 230px;
+   height: 30px;
+}
+.quadro-info{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    padding: 30px;
+    width: 65%;
+}
+.area-digitar{
+    background: linear-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2{
+    color: antiquewhite;
+}
+.icone, img{
+    height: 60px;
+    width: 60px;
+}
+.img3{
+    width: 50px;
+    height: 50px;
+    margin-top: -30;
+    position: absolute;
+}
+.av{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 25px;
+    padding: 17px;
+}
+.aviso{
+    color: yellow;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    display: none;
+}
+.info1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100%;
+}
+.info2{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width: 1000px) {
+    .info1{
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+    }
+    .info2{
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+    }
+    .area-digitar{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .aviso{
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 412px){
+    .input{
+        width: 80%;
+    }
+    body{
+        font-size: 15px;
+    }
+  }
