@@ -2,7 +2,7 @@
 Mostra clima em cada estado 
 ##
 
-construido com html5 e css3. 
+construido com html5 e css3 e Javascript. 
 ##
 consumido uma API que traz informações climáticas 
 ##
